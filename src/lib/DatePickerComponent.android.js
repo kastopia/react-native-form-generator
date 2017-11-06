@@ -170,7 +170,6 @@ import {Field} from './Field';
         paddingLeft: 10,
         paddingRight: 10,
         justifyContent: 'center',
-        lineHeight: 32
       },
       input:{
         paddingLeft: 10,
