@@ -77,10 +77,8 @@ var PickerItem = Picker.Item;
                   label={this.props.options[value]}
                 />
             ), this)}
-
             </Picker>
-
-
+            {this.props.iconRight ? this.props.iconRight: null}
         </View>
         </Field>
 
