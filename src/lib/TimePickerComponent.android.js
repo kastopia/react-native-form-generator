@@ -114,7 +114,7 @@ import {Field} from './Field';
 
       },
       alignRight:{
-         marginTop: 7, position:'absolute', right: 10
+        position:'absolute', right: 10
       },
       noBorder:{
         borderTopWidth: 0,
@@ -157,7 +157,6 @@ import {Field} from './Field';
         paddingLeft: 10,
         paddingRight: 10,
         marginRight:10,
-        paddingTop: 4,
         justifyContent: 'center',
 
         color: '#C7C7CC'
@@ -167,7 +166,6 @@ import {Field} from './Field';
         paddingLeft: 10,
         paddingRight: 10,
         justifyContent: 'center',
-        lineHeight: 32
       },
       input:{
         paddingLeft: 10,

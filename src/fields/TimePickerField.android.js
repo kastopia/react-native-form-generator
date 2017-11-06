@@ -39,7 +39,7 @@ export class TimePickerField extends React.Component{
 
         },
         alignRight:{
-           marginTop: 7, position:'absolute', right: 10
+           position:'absolute', right: 10
         },
         noBorder:{
           borderTopWidth: 0,
@@ -82,7 +82,6 @@ export class TimePickerField extends React.Component{
           paddingLeft: 10,
           paddingRight: 10,
           marginRight:10,
-          paddingTop: 4,
           justifyContent: 'center',
 
           color: '#C7C7CC'
@@ -91,8 +90,7 @@ export class TimePickerField extends React.Component{
           fontSize: 34/2,
           paddingLeft: 10,
           paddingRight: 10,
-          justifyContent: 'center',
-          lineHeight: 32
+          justifyContent: 'center'
         },
         input:{
           paddingLeft: 10,
