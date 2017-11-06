@@ -81,13 +81,8 @@ import {Field} from './Field';
             <Text style={[formStyles.fieldValue,this.props.valueStyle ]}>{
             (this.state.date)?this.state.date.toLocaleDateString():""
           }</Text>
-
-
+          {this.props.iconRight ? this.props.iconRight : null}
           </View>
-		  {(this.props.iconRight)
-              ? this.props.iconRight
-              : null
-          }
         </View>
         </Field>
         {(this.state.isPickerVisible)?
